@@ -13,6 +13,13 @@ html {
   padding-left: 15px;
   padding-right: 15px;
 }
+.conteiner-nav {
+  display: flex;
+}
+.top {
+  display: flex;
+  align-items: center;
+}
 
 h1,
 h2,
@@ -40,7 +47,7 @@ ul {
 }
 
 /* logo */
-.logo span {
+.logo-span {
   color: var(--accent-color);
 
   font-size: 26px;
@@ -57,16 +64,39 @@ ul {
   font-weight: 700;
   line-height: normal;
   text-decoration: none;
-  margin-bottom: 28px;
+  margin-right: 93px;
 }
 
 /* navigation */
+
+.nav {
+  display: flex;
+}
+
+.item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav .item-nav:not(:last-child) {
+  margin-right: 40px;
+}
+
 .nav-link {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   color: var(--header-color);
+}
+
+.connection {
+  margin-left: auto;
 }
 
 .nav-mail {
@@ -77,7 +107,6 @@ ul {
   line-height: normal;
   letter-spacing: 0.28px;
   text-decoration: none;
-  margin: 0;
 }
 
 .nav-tel {
@@ -101,9 +130,9 @@ ul {
 .btn {
   text-align: center;
   background-color: #2f303a;
-  margin: 94px;
+  padding: 94px;
   width: 1200px;
-  text-align: center;
+  margin-bottom: 94px;
 }
 
 .btn-text {
@@ -112,9 +141,6 @@ ul {
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  width: 696px;
-  height: 120px;
-  margin-left: 248px;
   margin-bottom: 40px;
 }
 
@@ -162,6 +188,9 @@ ul {
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
+.do {
+  display: flex;
+}
 /* text */
 .text {
   color: var(--header-color);
@@ -192,6 +221,12 @@ ul {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 94px;
+}
+.image-block {
+  display: flex;
+}
+.image-content:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* footer */
