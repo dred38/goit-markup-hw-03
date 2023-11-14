@@ -9,7 +9,7 @@ html {
 }
 
 .conteiner {
-  width: 1170px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -127,6 +127,15 @@ ul {
 }
 
 /* section baton (секція кнопка) */
+.btn-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.backspace-button:not(:last-child) {
+  margin-right: 8px;
+}
+
 .btn {
   text-align: center;
   background-color: #2f303a;
